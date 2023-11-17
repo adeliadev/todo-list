@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the form for adding tasks */
+.add-form {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+/* Style the input for adding tasks */
+.add-input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+/* Style the button for adding tasks */
+.add-button {
+  padding: 5px 10px;
+  margin-left: 8px;
+  font-size: 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style the task list */
+.task-list {
+  list-style: none;
+}
+
+/* Style each task item */
+.task-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+/* Style the task checkbox */
+.task-checkbox {
+  margin-right: 10px;
+}
+
+/* Style the task text */
+.task-text {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+/* Style the task action links */
+.task-action {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 3px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo para o botão de check */
+.check {
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #388e3c;
+  }
+  
+  /* Estilo para o botão de editar */
+  .edit {
+    background-color: #2196f3;
+    color: #fff;
+    border: 1px solid #1565c0;
+  }
+  
+  /* Estilo para o botão de deletar */
+  .delete {
+    background-color: #af4c4c;
+    color: #fff;
+    border: 1px solid #8e3234;
+  }
